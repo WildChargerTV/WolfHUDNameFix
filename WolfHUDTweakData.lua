@@ -123,9 +123,9 @@ function WolfHUDTweakData:init()
     --Unit Name link table
     self.CHARACTER_NAMES = {
         [ "civilian" ] 							= { default = "wolfhud_enemy_civilian" },
-        [ "civilian_female" ] 					= { default = "wolfhud_enemy_civilian" },
-        [ "civilian_mariachi" ] 				= { default = "wolfhud_enemy_civilian" },
-        [ "captain" ] 							= { default = "wolfhud_enemy_civilian" },
+        [ "civilian_female" ] 					= { default = "wolfhud_enemy_civilian_female" },
+        [ "civilian_mariachi" ] 				= { default = "wolfhud_enemy_mariachi" }, --CUSTOM Mariachi
+        [ "captain" ] 							= { default = "wolfhud_enemy_captain" }, --CUSTOM Captain From Alaskan Deal???
         [ "gangster" ] 							= { default = "wolfhud_enemy_gangster" },
         [ "biker" ] 							= { default = "wolfhud_enemy_biker" },
         [ "biker_escape" ] 						= { default = "wolfhud_enemy_biker" },
@@ -148,10 +148,14 @@ function WolfHUDTweakData:init()
         [ "fbi" ] 								= { default = "wolfhud_enemy_fbi" },
         [ "swat" ] 								= { default = "wolfhud_enemy_swat" },
         [ "heavy_swat" ] 						= { default = "wolfhud_enemy_heavy_swat" },
-        [ "fbi_swat" ] 							= { default = "wolfhud_enemy_swat" },
-        [ "fbi_heavy_swat" ] 					= { default = "wolfhud_enemy_heavy_swat" },
+        --[ "fbi_swat" ] 						= { default = "wolfhud_enemy_fbi_swat" }, --CUSTOM Heavy Response Unit
+        [ "fbi_swat" ]                          = { default = "wolfhud_enemy_swat" },
+        --[ "fbi_heavy_swat" ] 					= { default = "wolfhud_enemy_fbi_heavy_swat" }, --CUSTOM Maximum Force Responder
+        [ "fbi_heavy_swat" ]                    = { default = "wolfhud_enemy_heavy_swat" },
         [ "heavy_swat_sniper" ] 				= { default = "wolfhud_enemy_heavy_swat_sniper" },
         [ "marshal_marksman" ] 					= { default = "wolfhud_enemy_marshal_marksman" },
+        [ "marshal_shield" ]                    = { default = "wolfhud_enemy_marshal_shield" }, --CUSTOM Marshal Shield
+        [ "marshal_shield_break" ]              = { default = "wolfhud_enemy_marshal_shield_break" }, --CUSTOM Marshal Shield Broken
         [ "city_swat" ] 						= { default = "wolfhud_enemy_city_swat" },
         [ "shield" ] 							= { default = "wolfhud_enemy_shield" },
         [ "spooc" ] 							= { default = "wolfhud_enemy_spook" },
@@ -177,6 +181,7 @@ function WolfHUDTweakData:init()
         [ "drug_lord_boss" ]					= { default = "wolfhud_enemy_druglord_boss" },
         [ "drug_lord_boss_stealth" ]			= { default = "wolfhud_enemy_druglord_boss_stealth" },
         [ "ranchmanager" ] 						= { default = "wolfhud_enemy_ranchmanager" },
+        [ "deep_boss" ]                         = { default = "wolfhud_enemy_deep_boss" }, --CUSTOM Gabriel Santiago
         [ "biker_boss" ] 						= { default = "wolfhud_enemy_biker_boss" },
         [ "bank_manager" ] 						= { default = "wolfhud_enemy_bank_manager", dah = "wolfhud_enemy_dah_ralph" },
         [ "inside_man" ] 						= { default = "wolfhud_enemy_inside_man" },
