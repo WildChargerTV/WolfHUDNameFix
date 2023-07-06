@@ -282,8 +282,12 @@ if string.lower(RequiredScript) == "lib/managers/hudmanagerpd2" then
         heavy_swat = 				{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_heavy_swat" 				},
         heavy_swat_sniper = 		{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_heavy_swat_sniper"   	},
         marshal_marksman = 			{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_marshal_marksman"   		},
-        fbi_swat = 					{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_swat" 					},
-        fbi_heavy_swat = 			{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_heavy_swat" 				},
+        marhal_shield =             { type_id = "cop",          category = "enemies",   long_name = "wolfhud_enemy_marshal_shield"          }, --CUSTOM Marshal Shield
+        marshal_shield_break =      { type_id = "cop",          category = "enemies",   long_name = "wolfhud_enemy_marshal_shield_break"    }, --CUSTOM Marshal Shield Broken
+        --fbi_swat = 				{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_fbi_swat" 				}, --CUSTOM Heavy Response Unit
+        fbi_swat =                  { type_id = "cop",          category = "enemies",   long_name = "wolfhud_enemy_swat"                    },
+        --fbi_heavy_swat = 			{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_fbi_heavy_swat" 			}, --CUSTOM Maximum Force Responder
+        fbi_heavy_swat =            { type_id = "cop",          category = "enemies",   long_name = "wolfhud_enemy_heavy_swat"              },
         city_swat = 				{ type_id = "cop",			category = "enemies",	long_name = "wolfhud_enemy_city_swat" 				},
         security = 					{ type_id = "security",		category = "enemies",	long_name = "wolfhud_enemy_security" 				},
         security_undominatable = 	{ type_id = "security",		category = "enemies",	long_name = "wolfhud_enemy_security" 				},
@@ -301,6 +305,7 @@ if string.lower(RequiredScript) == "lib/managers/hudmanagerpd2" then
         triad_boss =				{ type_id = "thug_boss",	category = "enemies",	long_name = "wolfhud_enemy_triad_boss" 				},
         triad_boss_no_armor = 		{ type_id = "thug_boss",	category = "enemies",	long_name = "wolfhud_enemy_triad_boss" 				},
         ranchmanager = 				{ type_id = "thug_boss",	category = "enemies",	long_name = "wolfhud_enemy_ranchmanager" 			},
+        deep_boss =                 { type_id = "thug_boss",    category = "enemies",   long_name = "wolfhud_enemy_deep_boss"               }, --CUSTOM Gabriel Santiago
         tank = 						{ type_id = "tank",			category = "enemies",	long_name = "wolfhud_enemy_tank" 					},
         tank_hw = 					{ type_id = "tank",			category = "enemies",	long_name = "wolfhud_enemy_tank_hw" 				},
         tank_medic = 				{ type_id = "tank",			category = "enemies",	long_name = "wolfhud_enemy_tank_medic" 				},
@@ -322,7 +327,8 @@ if string.lower(RequiredScript) == "lib/managers/hudmanagerpd2" then
         phalanx_minion = 			{ type_id = "phalanx",		category = "enemies",	long_name = "wolfhud_enemy_phalanx_minion" 			},
         civilian = 					{ type_id = "civ",			category = "civilians",	long_name = "wolfhud_enemy_civilian" 				},
         civilian_female = 			{ type_id = "civ",			category = "civilians",	long_name = "wolfhud_enemy_civilian" 				},
-        civilian_mariachi = 		{ type_id = "civ",			category = "civilians",	long_name = "wolfhud_enemy_civilian" 				},
+        civilian_mariachi = 		{ type_id = "civ",			category = "civilians",	long_name = "wolfhud_enemy_mariachi" 				}, --CUSTOM Mariachi
+        captain =                   { type_id = "civ",          category = "civilians", long_name = "wolfhud_enemy_captain"                 }, --CUSTOM Captain From Alaskan Deal???
         bank_manager = 				{ type_id = "civ",			category = "civilians",	long_name = "wolfhud_enemy_bank_manager" 			},
         --drunk_pilot = 			{ type_id = "unique",		category = "civilians",	long_name = "wolfhud_enemy_drunk_pilot" 			},	--White x-Mas
         --escort = 					{ type_id = "unique",		category = "civilians",	long_name = "wolfhud_enemy_escort" 					},	--?
