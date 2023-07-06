@@ -2,7 +2,7 @@
 
 ## Fork Description
 
-Fork of WolfHUD that both adds new links (and tweaks existing ones) to fix the names of Marshal Shields & Gabriel Santiago.
+Fork of WolfHUD that both adds new links (and tweaks existing ones) to fix the names of Marshal Shields & Gabriel Santiago, among others.
 
 This is an ENGLISH ONLY fix - it does not attempt to tweak anything else within WolfHUD, as I am an amateur coder at best. Credit given to respective creators.
 
