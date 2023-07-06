@@ -1,6 +1,12 @@
-# WolfHUD
+# WolfHUD Name Fix
 
-## Description
+## Fork Description
+
+Fork of WolfHUD that both adds new links (and tweaks existing ones) to fix the names of Marshal Shields & Gabriel Santiago.
+
+This is an ENGLISH ONLY fix - it does not attempt to tweak anything else within WolfHUD, as I am an amateur coder at best. Credit given to respective creators.
+
+## WolfHUD Description
 
 This is a Mod collection of several useful HUD altering mods.
 I've modified them and added features which I felt that were either needed or useful, or both.
