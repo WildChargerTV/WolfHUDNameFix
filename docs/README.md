@@ -6,6 +6,12 @@ Fork of WolfHUD that both adds new links (and tweaks existing ones) to fix the n
 
 This is an ENGLISH ONLY fix - it does not attempt to tweak anything else within WolfHUD, as I am an amateur coder at best. Credit given to respective creators.
 
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/402005264179527682/1126318965514313829/20230423172407_1.jpg/" width="360"/>
+  <img src="https://media.discordapp.net/attachments/402005264179527682/1126318965812101141/20230423172423_1.jpg/" width="360"/>
+  <img src="https://media.discordapp.net/attachments/402005264179527682/1126318966164439090/20230705185452_1.jpg/" width="360"/>
+</p>
+
 ## WolfHUD Description
 
 This is a Mod collection of several useful HUD altering mods.
